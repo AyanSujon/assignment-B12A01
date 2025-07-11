@@ -5,16 +5,18 @@
   font-family: "Raleway", sans-serif; */
 
 /* Comon style */
+body{
+    background-color: #F5F8FF;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 section{
     margin-bottom: 100px;
 }
-.productive-users-section .comon-heading-text-h3{
+.comon-heading-text-h3{
     color: #252432;
     font-size: 42px;
     font-weight: 700;
@@ -134,3 +136,67 @@ main{
     font-family: "Inter", sans-serif;
     text-align: center;
 }
+/* users-feedback-section start here */
+.users-feedback-section h3{
+    margin-bottom: 50px;
+}
+.users-feedback{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.users-feedback .user .icon ul{
+    display: flex;
+    
+}
+.users-feedback .user .icon ul li{
+    list-style: none;
+    margin-right: 4px;
+}
+.users-feedback .user{
+    border-radius: 14px;
+}
+.users-feedback .user h4{
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.users-feedback .user p{
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 24px;
+
+}
+.user-card-metadata{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.users-feedback .user{
+    background-color: #ffffff;
+    padding: 24px;
+}
+.user-card-metadata .user-image{
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.user-card-metadata .user-metadata h6{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 2px;
+}
+.user-card-metadata .user-metadata span{
+    color: #B3B3B3;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+/* Ready to focus better start here */
