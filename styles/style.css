@@ -220,3 +220,23 @@ main{
 .r-to-f-b-image img{
     border-radius: 48px;
 }
+/* contact-section Start here */
+.contact-headline, .contact-form{
+    max-width: 50%;
+}
+.contact-section{
+    padding: 71px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-headline h2{
+    color: #000000;
+    font-size: 97px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+.contact-form .form-data{
+    display: block;
+    border: none;
+}
