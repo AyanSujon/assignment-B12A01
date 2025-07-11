@@ -236,7 +236,20 @@ main{
     font-weight: 700;
     font-family: "Raleway", sans-serif;
 }
+.contact-form label{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
 .contact-form .form-data{
     display: block;
     border: none;
+    padding: 20px 32px;
+    max-width: 497px !important;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, .5);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
 }
