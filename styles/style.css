@@ -228,6 +228,7 @@ main{
     padding: 71px 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .contact-headline h2{
     color: #000000;
