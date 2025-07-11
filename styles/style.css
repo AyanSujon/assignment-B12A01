@@ -200,3 +200,23 @@ main{
     font-family: "Inter", sans-serif;
 }
 /* Ready to focus better start here */
+.ready-to-focus-better{
+    text-align: center;
+    padding: 71px 0;
+    background-color: #ffffff;
+    border-radius: 14px;
+}
+.ready-to-focus-better p{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: rgba(0, 0, 0, .5);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+.r-to-f-b-image{
+    margin-top: 35px;
+}
+.r-to-f-b-image img{
+    border-radius: 48px;
+}
