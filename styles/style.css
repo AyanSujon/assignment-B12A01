@@ -40,7 +40,7 @@ section{
 
 /* Header Section Start Here */
 header{
-    background-image: url('../assets/Hero-bg.png');
+    background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
