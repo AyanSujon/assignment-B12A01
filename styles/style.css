@@ -300,3 +300,17 @@ footer p{
     justify-content: center;
     gap: 48px;
 }
+.footer-menu-link ul li{
+    list-style: none;
+}
+.footer-menu-link ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    transition: all linear .3s;
+}
+.footer-menu-link ul li a:hover{
+    color: #4E47FF;
+}
